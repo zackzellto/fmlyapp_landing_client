@@ -6,7 +6,7 @@ interface WaitlistResponse {
   timestamp: string;
 }
 
-const baseURL = "https://fmly-landing-backend.herokuapp.com/api/waitlist";
+const baseURL = "https://fmlyapp-backend.herokuapp.com/api/waitlist";
 
 export const addToWaitlist = async (
   email: string
